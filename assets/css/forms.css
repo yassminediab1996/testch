@@ -1,0 +1,72 @@
+.contact-form{
+  margin-top: 100px;
+  background-image: url('assets/images/contact-us-background.jpg');
+  background-repeat: no-repeat;
+  background-position: 50% -200%; 
+}
+
+.main-contact-items{
+  box-shadow: 0px 5px 5px rgba(0,0,0,.75); 
+  background-color:  #fff;
+  padding: 10px 20px;
+  margin: auto;
+}
+.contact-form > form >input{
+    font-size: 14.2pt;
+}
+.contact-form > form >input::placeholder , .contact-form > form >textarea::placeholder{
+    font-size: 14.2pt;
+    color: #dfdfdf;
+}
+label > input{ /* HIDE RADIO */
+  visibility: hidden; /* Makes input not-clickable */
+  position: absolute; /* Remove input from document flow */
+}
+label > input + img{ /* IMAGE STYLES */
+  cursor:pointer;
+}
+label > input:checked + img{ /* (RADIO CHECKED) IMAGE STYLES */
+    outline: 100px solid rgba(98, 203, 39, 0.25) !important;
+    outline-offset: -100px;
+    overflow: hidden;
+    position: relative;
+    height: 200px;
+    width: 200px;
+}
+form *{
+  margin-bottom:5px;
+  line-height: 30px;
+}.name {
+  padding-top: 20px;
+}
+.entry {
+  margin-left:5px;
+  font-size:20px;
+  padding:2px;
+  width: fit-content;
+  color: #ff99cc;
+  border: 1px solid #fff7e6;
+  border-radius: 4px;
+  width:100%;
+}
+.submit{
+  border: 1px solid #ff99cc;
+  border-radius: 4px;
+  font-weight: bold;
+}
+.footer-form >form{
+  background-color: #5bbd57;
+  width: fit-content;
+  padding: 5px;
+}
+.footer-form >form > * ::placeholder{
+  color: #fff;
+}
+.footer-form >form > *{
+   margin-left: 10px;
+   color: #fff}
+@media only screen and (min-width : 992px) {
+    form{
+      width: 50%;
+  }
+}

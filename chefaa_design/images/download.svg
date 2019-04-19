@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>download</title>
+    <desc>Created with Sketch.</desc>
+    <g id="UI" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.4" stroke-linecap="round" stroke-linejoin="round">
+        <g id="Home" transform="translate(-1284.000000, -2311.000000)" stroke="#000000">
+            <g id="download" transform="translate(1277.000000, 2304.000000)">
+                <g id="Group" transform="translate(5.600000, 5.600000)">
+                    <g id="Shape" stroke-width="2.8">
+                        <path d="M19.6000001,14.0000001 L19.6000001,17.7333334 C19.6000001,18.764265 18.764265,19.6000001 17.7333334,19.6000001 L4.6666667,19.6000001 C3.63573516,19.6000001 2.80000002,18.764265 2.80000002,17.7333334 L2.80000002,14.0000001"></path>
+                        <polyline points="6.53333337 9.33333339 11.2000001 14.0000001 15.8666668 9.33333339"></polyline>
+                        <path d="M11.2000001,14.0000001 L11.2000001,2.80000002"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

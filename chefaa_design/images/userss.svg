@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="20px" viewBox="0 0 24 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>userss</title>
+    <desc>Created with Sketch.</desc>
+    <g id="UI" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.4" stroke-linecap="round" stroke-linejoin="round">
+        <g id="Home" transform="translate(-955.000000, -2311.000000)" stroke="#000000">
+            <g id="users" transform="translate(950.000000, 2304.000000)">
+                <g id="Group" transform="translate(5.666667, 5.666667)">
+                    <g stroke-width="2.83333333">
+                        <path d="M16.0555557,19.8333335 L16.0555557,17.9444446 C16.0555557,15.8580355 14.3641869,14.1666668 12.2777779,14.1666668 L4.72222225,14.1666668 C2.63581318,14.1666668 0.94444445,15.8580355 0.94444445,17.9444446 L0.94444445,19.8333335" id="Shape"></path>
+                        <circle id="Oval" cx="8.50000005" cy="6.61111115" r="3.7777778"></circle>
+                        <path d="M21.7222224,19.8333335 L21.7222224,17.9444446 C21.7209382,16.2228335 20.5558323,14.7198469 18.888889,14.2894445" id="Shape"></path>
+                        <path d="M15.1111112,2.95611113 C16.7826974,3.38410482 17.9518521,4.890325 17.9518521,6.61583337 C17.9518521,8.34134175 16.7826974,9.84756193 15.1111112,10.2755556" id="Shape"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

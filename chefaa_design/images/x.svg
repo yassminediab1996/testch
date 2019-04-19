@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="15px" height="15px" viewBox="0 0 15 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>x</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="buttons/X/circle" transform="translate(-19.000000, -19.000000)" stroke="#000000">
+            <g id="x" transform="translate(12.000000, 12.000000)">
+                <g id="Group" transform="translate(3.600000, 3.600000)">
+                    <g id="Shape" stroke-width="2.64000006">
+                        <path d="M16.2,5.4 L5.4,16.2"></path>
+                        <path d="M5.4,5.4 L16.2,16.2"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

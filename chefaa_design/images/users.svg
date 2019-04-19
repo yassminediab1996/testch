@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="22px" viewBox="0 0 18 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>users</title>
+    <desc>Created with Sketch.</desc>
+    <g id="UI" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.4" stroke-linecap="round" stroke-linejoin="round">
+        <g id="Home" transform="translate(-361.000000, -2310.000000)" stroke="#000000">
+            <g id="clipboard" transform="translate(353.000000, 2304.000000)">
+                <g id="Group" transform="translate(5.666667, 5.666667)">
+                    <g stroke-width="2.83333333">
+                        <path d="M15.1111112,3.7777778 L17.0000001,3.7777778 C18.0432046,3.7777778 18.888889,4.62346217 18.888889,5.6666667 L18.888889,18.888889 C18.888889,19.9320935 18.0432046,20.7777779 17.0000001,20.7777779 L5.6666667,20.7777779 C4.62346217,20.7777779 3.7777778,19.9320935 3.7777778,18.888889 L3.7777778,5.6666667 C3.7777778,4.62346217 4.62346217,3.7777778 5.6666667,3.7777778 L7.5555556,3.7777778" id="Shape"></path>
+                        <rect id="Rectangle-path" x="7.5555556" y="1.8888889" width="7.5555556" height="3.7777778" rx="1.41666667"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

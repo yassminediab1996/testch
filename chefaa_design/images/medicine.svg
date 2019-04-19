@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="84px" height="84px" viewBox="0 0 84 84" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>medicine</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="529.016031%" y1="-251.735852%" x2="-37.7626462%" y2="110.447861%" id="linearGradient-1">
+            <stop stop-color="#36B44E" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" offset="100%"></stop>
+        </linearGradient>
+        <path d="M15.5185371,23.4250582 L4.3525972,16.5937876 C0.152260521,14.0233708 -1.17524249,8.51531064 1.39365932,4.31421644 C3.02972345,1.6409459 5.88092587,0.0438517035 9.02015233,0.0438517035 C10.6605932,0.0438517035 12.2703127,0.497855713 13.672473,1.3572986 L25.388453,8.52406415 L23.4820401,9.68356716 C18.5335311,12.6972986 16.6249299,17.773996 15.8955271,21.5028217 L15.5185371,23.4250582 Z M3.71830462,5.73607216 C1.93149499,8.65528259 2.85330662,12.4837636 5.77243288,14.2704048 L13.6672545,19.0977956 C14.5606173,15.8880361 16.4226734,11.6816393 20.2913027,8.59787978 L12.252469,3.67925051 C11.2753587,3.08308618 10.1580241,2.76720241 9.02015233,2.76720241 C6.83783569,2.76720241 4.85415632,3.87738277 3.71830462,5.73607216 Z M37.9025171,16.6028778 C41.9180201,19.0600041 43.1872787,24.3272586 40.7294791,28.3439399 C39.1647055,30.9006373 36.4396714,32.427956 33.4373869,32.427956 C31.8700041,32.427956 30.3314911,31.9949099 28.9894269,31.1728377 L17.820962,24.3435031 L17.8525251,24.0835071 C18.134489,21.727467 19.167992,16.8042926 22.8671063,13.1927976 C22.9329259,13.3302445 33.278477,19.7182004 33.278477,19.7182004 C33.411968,19.7995071 33.5574109,19.8368778 33.7010863,19.8368778 C33.9736233,19.8368778 34.2407736,19.6986734 34.3922766,19.4483568 C34.6270221,19.066485 34.5058197,18.5683768 34.1243688,18.333968 L24.0378037,12.1765491 C24.9643287,11.4516914 26.013992,10.8001443 27.2350221,10.2775431 L27.4290301,10.1948898 L37.9025171,16.6028778 Z" id="path-2"></path>
+        <filter x="-16.7%" y="-15.4%" width="133.4%" height="143.2%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.211764706   0 0 0 0 0.705882353   0 0 0 0 0.305882353  0 0 0 0.3 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="UI" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Home" transform="translate(-614.000000, -990.000000)">
+            <g id="Group-6-Copy" transform="translate(597.000000, 990.000000)">
+                <g id="medicine" transform="translate(17.000000, 0.000000)">
+                    <circle id="Oval-Copy-3" fill="url(#linearGradient-1)" cx="42" cy="42" r="42"></circle>
+                    <g id="icons/services/medicine" transform="translate(17.000000, 17.000000)">
+                        <g id="Group" transform="translate(4.000000, 8.042084)">
+                            <g id="Capa_1" fill-rule="nonzero">
+                                <g id="Group" transform="translate(0.000000, 0.713427)">
+                                    <g id="Combined-Shape">
+                                        <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-2"></use>
+                                        <use fill="#36B44E" xlink:href="#path-2"></use>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

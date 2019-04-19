@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>icons/buttons/arrow-left/green</title>
+    <desc>Created with Sketch.</desc>
+    <g id="icons/buttons/arrow-left/green" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="Group" transform="translate(7.000000, 7.000000)" fill="#36B44E" fill-rule="nonzero">
+            <g id="Combined-Shape">
+                <path d="M2.74754692,6.00000005 L5.70710683,8.95955996 C6.09763112,9.35008426 6.09763112,9.98324924 5.70710683,10.3737735 C5.31658254,10.7642978 4.68341756,10.7642978 4.29289327,10.3737735 L-0.373773427,5.70710683 C-0.764297719,5.31658254 -0.764297719,4.68341756 -0.373773427,4.29289327 L4.29289327,-0.373773427 C4.68341756,-0.764297719 5.31658254,-0.764297719 5.70710683,-0.373773427 C6.09763112,0.0167508647 6.09763112,0.649915844 5.70710683,1.04044014 L2.74754692,4.00000005 L9.66666675,4.00000005 C10.2189515,4.00000005 10.6666667,4.4477153 10.6666667,5.00000005 C10.6666667,5.5522848 10.2189515,6.00000005 9.66666675,6.00000005 L2.74754692,6.00000005 Z"></path>
+            </g>
+        </g>
+    </g>
+</svg>

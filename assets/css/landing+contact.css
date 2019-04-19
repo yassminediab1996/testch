@@ -1,0 +1,11 @@
+.footer-form >form{
+  background-color: #5bbd57;
+  width: fit-content;
+  padding: 5px;
+}
+.footer-form >form > * ::placeholder{
+  color: #fff;
+}
+.footer-form >form > *{
+   margin-left: 10px;
+   color: #fff}

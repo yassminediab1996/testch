@@ -1,0 +1,94 @@
+.banner {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+/* Centered text */
+.centered {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.bottom {
+    position: absolute;
+    bottom: 100px; 
+    width: 100%;
+}
+.banner-states{
+  border: 5px solid white;
+  padding: 25px 25px 0px 25px;
+  width:fit-content;
+  border-radius: 50%;
+  width: 200px;
+    height: 200px;
+    padding-top: 15%;
+}
+.banner-states >*{
+  font-size: 13.03pt;
+  font-weight: bold;
+  color: #fff;
+  line-height: 10pt;
+}
+.banner-num{
+  font-size: 26.18pt;
+  font-weight: bold;
+}.case-title{
+  font-weight: bold;
+}
+.case-text{
+  color: #7f7f7f;
+  font-size: 13pt;
+}
+.cases-container{
+  padding: 50px;
+}
+.card{
+   box-shadow: 0px 5px 5px rgba(0,0,0,.75);
+}.page{
+  cursor: pointer;
+  height: auto;
+  width: auto;
+  padding: 0px 7px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.page:hover{
+  color: #fff;
+  background-color: #62cb5d;
+}.progress-info{
+  font-size: 13pt;
+}
+form{
+  width: 100%;
+  padding: 0px 50px 25px 50px;
+}.modal{
+  background-color: rgba(98,203,93,0.75);
+}.model-head{
+  position: relative;
+  margin-top: -2rem
+}
+
+
+@media(max-width: 600px){
+    .banner-states{    width: 150px;
+    height: 150px;
+    padding-top: 10%;
+           
+    }
+    p { margin-bottom: 12px !important;}
+    .bottom {
+    position: absolute;
+    bottom: 119px;
+    width: 200%;
+    right: -47%;
+}
+
+.banner-num{margin-bottom: 12px !important;}
+.banner-states >*{margin-bottom: 12px !important;}
+    
+}
