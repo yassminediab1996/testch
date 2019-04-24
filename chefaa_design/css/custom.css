@@ -1,0 +1,383 @@
+
+html, body {
+    width: 100% !important;
+    overflow-x: hidden !important
+}
+
+ul, li {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.profile-wrapper {
+    width: 150px;
+    position: absolute;
+    top: 24%;
+    left: -15%
+}
+
+.profile-wrapper::after {
+    content: '';
+    position: absolute;
+    top: 20px;
+    right: 10px;
+    border-color: #333 transparent transparent;
+    border-width: 6px;
+    border-style: solid
+}
+
+.profile-wrapper::before {
+    content: '';
+    position: absolute;
+    top: 20px;
+    right: 10px;
+    border-color: #eee transparent transparent;
+    border-width: 6px;
+    border-style: solid;
+}
+
+.profile-wrapper:hover::after {
+    border-color: #111 transparent transparent;
+}
+
+.profile {
+    padding: 10px;
+    border: 1px solid #e6e6e6;
+    border-radius: 3px;
+    box-shadow: 0 1px 0 #e6e6e6 inset, 0 1px 7px #e6e6e6;
+    background: -webkit-linear-gradient(hsla(131.42857142857144, 53.85%, 45.88%, 1.00), #e6e6e6);
+}
+
+.profile:hover {
+    cursor: pointer;
+    background: -webkit-linear-gradient(#e6e6e6, hsla(131.42857142857144, 53.85%, 45.88%, 1.00));
+}
+
+.w-tab-link.w--current {
+    color: #FFF !important
+}
+
+.profile .name {
+    font-size: 12px;
+    color: #fff;
+    line-height: 26px;
+    margin-left: 10px;
+}
+
+.profile .name:hover {
+    color: #0088cc;
+}
+
+.profile img {
+    width: 25px;
+    display: inline;
+    float: left;
+    border: 1px solid #111;
+    border-radius: 3px;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.5) inset;
+}
+
+/* hide menu */
+.menu {
+    display: none;
+    clear: both;
+    margin: 20px 0 0 0;
+}
+
+.menu li {
+    font-size: 12px;
+    margin: 0;
+    padding: 10px 4px;
+}
+
+.menu li a {
+    color: #555;
+}
+
+.menu li:hover > a {
+    color: #eee;
+}
+
+.menu li:hover {
+    border-left: 1px solid #111;
+    border-right: 1px solid #222;
+    border-bottom: 1px solid #222;
+    border-top: 1px solid #111;
+    border-radius: 3px;
+}
+
+/* hover profile show menu */
+.profile:hover .menu {
+    display: block;
+}
+
+.tab .w-inline-block .w-tab-link .w--current {
+    color: white;
+}
+
+a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+.progress-bar {
+
+    background-color: #e9ecef !important;
+}
+
+a {
+    color: black;
+}
+
+.pop-up-wrapper {
+    position: fixed;
+    left: 400px;
+    top: 55px;
+    right: 400px;
+    bottom: 0px;
+    z-index: 10000000;
+    display: none;
+    overflow: hidden;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background-color: hsla(0, 0%, 100%, .7);
+}
+
+/* Start Store Container Buttons */
+
+/* Start Responsive Of Store Container Buttons In Small Screens */
+
+@media screen and (max-width: 767px) {
+
+    .storecontainer .storebutton {
+
+        display: flex !important;
+        margin: auto !important;
+        margin-bottom: 6px !important;
+        width: 80% !important
+    }
+
+    /* Start Responsive Of Footer Form In Mobile Screens */
+    .footer {
+        padding-bottom: 150px !important
+    }
+
+    #mc_embed_signup_scroll {
+        position: relative !important
+    }
+
+    #mc_embed_signup_scroll input {
+        position: absolute !important
+    }
+
+    #mc_embed_signup_scroll input:first-child {
+        display: block;
+        position: absolute;
+        left: 12%;
+        width: 250px;
+        margin: auto;
+    }
+
+    #mc_embed_signup_scroll input:nth-child(2) {
+
+        display: block;
+        position: absolute;
+        left: 90%;
+        top: 130px !important;
+        width: 130px;
+        margin: auto;
+
+    }
+
+    .csr ol li div:first-child {
+        margin: auto !important
+    }
+
+    /* End Responsive Of Footer Form In Mobile Screens */
+    /* Start Responsive Of ondemand process in mobile screens */
+    .cases-section.monthly form input {
+        display: block !important;
+        width: 90% !important;
+        margin: 0 auto 5% !important
+    }
+
+    .cases-section.monthly .text-block-14 label {
+        display: block;
+        width: 100%;
+        text-align: center
+    }
+
+    /* End Responsive Of ondemand process in mobile screens */
+
+}
+
+/* End Responsive Of Store Container Buttons In Small Screens */
+
+/* Start Modification In Navigation Bar Links In Small And Medium Screens */
+
+@media screen and (max-width: 991px) {
+
+    nav a {
+        color: #000 !important
+    }
+
+    .storecontainer .storebutton {
+        margin-bottom: 5% !important
+    }
+
+    .footer {
+        padding-bottom: 150px !important
+    }
+
+    #mc_embed_signup_scroll {
+        position: relative !important
+    }
+
+    #mc_embed_signup_scroll input {
+        position: absolute !important
+    }
+
+    #mc_embed_signup_scroll input:first-child {
+        display: block;
+        position: absolute;
+        left: 20%;
+        width: 250px;
+        margin: auto;
+    }
+
+    #mc_embed_signup_scroll input:nth-child(2) {
+
+        display: block;
+        position: absolute;
+        left: 80%;
+        top: 130px !important;
+        width: 130px;
+        margin: auto
+
+    }
+
+    /* Start Footer Links Style  */
+    #footer ol li {
+        padding: 10px !important;
+        text-align: center
+    }
+
+    #footer ol li a {
+        padding: 0 !important
+    }
+
+    /* End Footer Links Style */
+
+}
+
+/* End Modification In Navigation Bar Links In Small And Medium Screens */
+
+/* End Store Container Buttons */
+
+.w-nav-link {
+    padding: 34px 12px !important
+}
+
+.uploadcare--widget {
+    width: 100%;
+}
+
+.uploadcare--widget__button_type_open {
+    width: 100%;
+    min-width: 150px;
+    background: #5b3acc;
+    padding: 8px;
+    color: white;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgba(1, 204, 190, .15);
+    border-radius: 40px;
+    font-family: Karla;
+    cursor: pointer;
+}
+
+.uploadcare--widget__button_type_open:hover {
+    background: #5b3acc;
+    font-family: Karla;
+}
+
+p {
+    font-family: Tajawal !important;
+}
+
+.w--current {
+    color: white;
+}
+
+#mc_embed_signup {
+    background: #fff;
+    clear: left;
+    font: 14px Helvetica, Arial, sans-serif;
+    width: 100%;
+}
+
+/* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
+   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+#mc_embed_signup {
+    background: unset;
+    clear: left;
+    font: unset;
+    width: 100%;
+}
+
+#mc_embed_signup input.email {
+    margin-left: 130px;
+    width: 280px !important;
+}
+
+#mc_embed_signup .button {
+    float: left !important;
+    font-size: 17px;
+    border: none;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 8px;
+    letter-spacing: .03em;
+    color: #fff;
+    background-color: hsla(131.42857142857144, 53.85%, 45.88%, 1.00) !important;
+    box-sizing: border-box;
+    height: 50px;
+    line-height: 32px;
+    padding: 0 18px;
+    display: inline-block;
+    /* margin: 0; */
+    transition: all 0.23s ease-in-out 0s;
+    margin-top: -50px !important;
+    margin-left: -170px !important;
+}
+
+/*input[type="file"]:before {*/
+/*   content: attr(placeholder) !important;*/
+/*   color: rgba(0,0,0,.4);*/
+/*   display:block;*/
+/*   float:right;*/
+/* }*/
+input[type='file'] {
+    color: transparent; /* Hides your "No File Selected" */
+    direction: rtl; /* Sets the Control to Right-To-Left */
+}
+
+/* input[type='file'] {*/
+/*  opacity:0    */
+/*}*/
+
+#mc-embedded-subscribe-form {
+    display: block !important;
+}
+

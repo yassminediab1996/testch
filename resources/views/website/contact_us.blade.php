@@ -109,13 +109,8 @@
                          title: 'شكرا',
                         text: "شكرا لتسجيلك معنا!",
                   });
-                //   $('.email').removeAttr('value');
-                  $.trim($('.email').val()) == '';
-
                  location.reload();
-                //   $('#mc-embedded-subscribe-form').removeAttr('style');
-              
-            
+
           });
         }); 
       

@@ -2,15 +2,13 @@
 
 namespace App\Http\Controllers;
 
-use App\AdminModel\Product;
-use App\FavPro;
-use Illuminate\Http\Request;
+use App\Jobs\ProcessPodcast;
 use App\Monthly;
-use DateTime;
-use Mail;
-use Illuminate\Support\Facades\Crypt;
 use App\User;
+use DateTime;
 use Hash;
+use Illuminate\Http\Request;
+use Mail;
 
 class MonthlysubController extends Controller
 {
@@ -51,30 +49,14 @@ class MonthlysubController extends Controller
             $request['img'] = $filename;
             unset($request['file']);
          }
-         
            $getmonthly =  Monthly::create([ 'date' => $date ,'name' => $request->name , 'email' => $request->email , 'phone' => $request->phone ,'address' => $request->address , 'img' => $request['img']]);
            $getpackage =  $getmonthly;
            $email = $getmonthly->email;
           if($getmonthly){
               //order@chefaa.com
-                Mail::send('website.mail.newuser_admin',['getpackage' => $getpackage , 'email' => $email ],function($message) use ($getpackage,$email){
-                  $message->to('order@chefaa.com');
-                  $message->subject('new user for monthly package');
-                });
-                //  Mail::send('website.mail.newuser_admin',['getpackage' => $getpackage , 'email' => $email],function($message) use ($getpackage,$email){
-                //   $message->to('doaa@chefaa.com');
-                //   $message->subject('new user for monthly package');
-                // });
-                //  Mail::send('website.mail.newuser_admin',['getpackage' => $getpackage , 'email' => $email],function($message) use ($getpackage,$email){
-                //   $message->to('info@chefaa.com');
-                //   $message->subject('new user for monthly package');
-                // });
-                 Mail::send('website.mail.usermonthlypackage',['getpackage' => $getpackage , 'email' => $email , 'get_user' => $get_user ,'pass' => $pass],function($message) use ($getpackage,$email,$get_user,$pass){
-                  $message->to($email);
-                  $message->subject('شكرا لإستخدامك شفاء ');
-                });
-          
-          
+//              ProcessPodcast::dispatch($email);
+              ProcessPodcast::dispatch($email)
+                  ->delay(now()->addMinutes(30));
         }
         //   session()->flash('success_message' ,' تم الإشتراك في خدمة الروشتة الشهرية ' . '<br>' . 'هذه الخدمة مجاناً بالكامل' . '<br>' .'برجاء مراجعة بريدك الإلكترونى ');
          session()->flash('success_message' , 'تم الإشتراك فى خدمة الروشتة الشهرية هذه الخدمة مجانأ بالكامل برجاء مراجعة ايميلك ');

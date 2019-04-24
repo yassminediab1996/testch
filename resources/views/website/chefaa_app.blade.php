@@ -1,15 +1,9 @@
 @php $currentPage = 'chefaa_app'; @endphp
-
    @extends('website.layouts.master')
-   
    @section('content')
-   
    <!-- Start Content -->
-   
    <div class = "content" >
-       
        <!-- Start Chefaa App Features -->
-       
       <div class="b2c-container">
         <h2 class="sectitle center"><strong>مميزات تطبيق شفاء</strong></h2>
         <div class="w-layout-grid b2cgrid">
@@ -111,7 +105,6 @@
       <!-- End Chefaa App Functions -->
   
    </div>
-   
    <!-- end content -->
      @section('mailchimb')
         <div class="div-block footer">
@@ -129,4 +122,4 @@
       <div class="text-block-7" >💌 لمتابعة الجديد من خلال البريد الإلكترونى</div>
     </div>
     @endsection
-   @endsection
+@endsection

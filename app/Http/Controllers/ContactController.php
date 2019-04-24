@@ -3,10 +3,11 @@
 namespace App\Http\Controllers;
 
 
-use Illuminate\Http\Request;
 use App\ContactUs;
-use Mail;
 use App\Quickform;
+use Illuminate\Http\Request;
+use Mail;
+
 class ContactController extends Controller
 {
     public function  contact(Request $request)
@@ -17,17 +18,18 @@ class ContactController extends Controller
             'message' => 'required|string',
             'phone' => 'required|numeric',
         ]);
+//         dd($request->all());
         $ins = ContactUs::create($request->all());
         $get = ContactUs::find($ins->id);
-        
-         Mail::send('website.mail.contact',['get' => $get],function($message) use ($get){
-              $message->to('doaa@chefaa.com');
-              $message->subject('contact us from chefaa.com');
-            });
+
+//         Mail::send('website.mail.contact',['get' => $get],function($message) use ($get){
+//              $message->to('doaa@chefaa.com');
+//              $message->subject('contact us from chefaa.com');
+//            });
             
         if($ins)
         {
-              session()->flash('success_message', '  تمت الاضافه بنجاح !');
+            session()->flash('success_message', '  تمت الاضافه بنجاح !');
                return redirect()->back();
         }else{
             session()->flash('error_message', '  حدث خطا الرجاء الارسال مرة اخرى   !');

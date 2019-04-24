@@ -1,7 +1,5 @@
  @php $currentPage = '/'; @endphp
- 
   @extends('website.layouts.master')
-  
   @section('content')
   <style>
       .servicescol:hover .service_more_button { display:block }
@@ -16,7 +14,6 @@
        
   </style>
       <!-- start content  -->
-      
       <div class = "content" >
           
           <!-- Start Chefaa Service Introduction -->
@@ -278,35 +275,38 @@
                 <div id="media-card-title" class="text-block-5">   بعد انتصارها على السرطان.. دعاء تطلق تطبيق «شفاء» لتوصيل العلاج للمنازل مجاناً</div>
         
               </div>
-             
-             </div> </div>
+
+                         </div>
+                     </div>
                      
                  </div>
              </div>
           </div>
-          
           <!-- End Chefaa Media -->
-      
       </div>
-      
       <!-- end content -->
-    <!-- end content -->
+  <!-- end content -->
      @section('mailchimb')
         <div class="div-block footer">
-      <div class="form-block-2 w-form">
-        <div id="mc_embed_signup">
-            <form action="https://chefaa.us18.list-manage.com/subscribe/post?u=0c607300b0650fa81e42606cd&amp;id=8d099c1b12" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate form"  novalidate>
-               <div id="mc_embed_signup_scroll" >
-                    <input type="email" class="textfield newsletter w-input" maxlength="256" name="EMAIL" class="email textfield newsletter w-input" id="mce-EMAIL" data-name="Email 2" placeholder=" ...إدخل بريدك الإلكترونى  " required="">
-                    <input type="submit" value="ارسال" data-wait="..برجاء "  name="subscribe" id="mc-embedded-subscribe" class="button submit-button w-bu ">
+            <div class="form-block-2 w-form">
+                <div id="mc_embed_signup">
+                    <form action="https://chefaa.us18.list-manage.com/subscribe/post?u=0c607300b0650fa81e42606cd&amp;id=8d099c1b12"
+                          method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form"
+                          class="validate form" novalidate>
+                        <div id="mc_embed_signup_scroll">
+                            <input type="email" class="textfield newsletter w-input" maxlength="256" name="EMAIL"
+                                   class="email textfield newsletter w-input" id="mce-EMAIL" data-name="Email 2"
+                                   placeholder=" ...إدخل بريدك الإلكترونى  " required="">
+                            <input type="submit" value="ارسال" data-wait="..برجاء " name="subscribe"
+                                   id="mc-embedded-subscribe" class="button submit-button w-bu ">
+                        </div>
+                    </form>
                 </div>
-             </form>
+                <!--End mc_embed_signup-->
+            </div>
+            <div class="text-block-7">💌 لمتابعة الجديد من خلال البريد الإلكترونى</div>
         </div>
-   <!--End mc_embed_signup-->
-      </div>
-      <div class="text-block-7" >💌 لمتابعة الجديد من خلال البريد الإلكترونى</div>
-    </div>
-  @endsection
-  
+     @endsection
+
   @endsection
   
