@@ -42,7 +42,7 @@ class MonthlysubController extends Controller
 		}
         
         if($request->hasFile('file')){
-            $file = $request->file('file');
+		   $file = $request->file('file');
             $filename = time() . '.' .$file->getClientOriginalName();
             $destinationPath = 'uploads/files';
             $file->move($destinationPath,$filename);
